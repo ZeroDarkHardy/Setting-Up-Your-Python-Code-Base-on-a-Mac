@@ -93,12 +93,14 @@ This guide will walk you through setting up your Python coding environment on a 
   ```bash
   conda activate dev
   ```
+- Before using `pip install` for any new packages, ensure that the `dev` environment is activated to avoid installation issues.
+- Use the **Terminal** exclusively for managing environments and running Python-related commands.
+- For detailed instructions on navigating and using the Terminal effectively, refer to this repository: [Basic Command Line Navigation for Mac Users](https://github.com/ZeroDarkHardy/Basic-Command-Line-Navigation-for-Mac-Users).
 - If you need to exit the environment, use:
   ```bash
   conda deactivate
   ```
 - Remember to keep Conda updated periodically to avoid compatibility issues.
-- Use the **Terminal** exclusively for managing environments and running commands as described in this guide.
 
 With this setup, you are now ready to begin your coursework. If you encounter any issues, reach out to your instructional staff for assistance.
 
