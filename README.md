@@ -1,7 +1,9 @@
 # Setting Up Your Python Code Base on a Mac
 Author: Matt Hardy, 12/19/2024
+
 ## Table of Contents
 - [Introduction](#introduction)
+- [Checking Your Processor](#checking-your-processor)
 - [Downloading and Installing Anaconda](#downloading-and-installing-anaconda)
   - [Step 1: Download Anaconda](#step-1-download-anaconda)
   - [Step 2: Install Anaconda](#step-2-install-anaconda)
@@ -23,11 +25,28 @@ This guide will walk you through setting up your Python coding environment on a 
 
 **Note:** Multi-line code blocks in this guide are intended to be run **one line at a time**. Copying and pasting the entire block at once may result in errors.
 
+---
+
+## Checking Your Processor
+Before downloading Anaconda, it's crucial to identify which processor your Mac is using. This ensures that you select the correct installer for your system.
+
+### Steps to Check Your Processor
+1. Click on the Apple menu (top-left corner of your screen) and select **About This Mac**.
+2. Look for the line labeled **Processor** or **Chip**:
+   - If it says **Intel**, you are using an Intel-based Mac.
+   - If it says **Apple M1** or **Apple M2**, you are using an Apple silicon Mac.
+
+Once you have identified your processor, proceed to download the appropriate installer as described below.
+
+---
+
 ## Downloading and Installing Anaconda
 
 ### Step 1: Download Anaconda
 1. Navigate to the [Anaconda Download Page](https://www.anaconda.com/download/success) and select the latest version of Anaconda for macOS.
-2. Click the download button for **MacOS Installer** (64-Bit, Apple silicon, Graphical Installer, 704.7M) under the "Anaconda Installers" section.
+2. Click the download button for the appropriate installer based on your processor:
+   - For **Apple silicon Macs** (M1/M2), select **"64-Bit (Apple silicon) Graphical Installer (704.7M)"**.
+   - For **Intel-based Macs**, select **"64-Bit (Intel chip) Graphical Installer (734.7M)"**.
 
 ### Step 2: Install Anaconda
 1. Once the installer is downloaded, double-click on the file to run it.
